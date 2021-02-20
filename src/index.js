@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter } from "react-router-dom";
 import { createStore, compose } from "redux";
-import {rootReducer} from "./store/RootReducer";
+import { rootReducer } from "./store/RootReducer";
 import { Provider } from 'react-redux'
 
 const store = createStore(
@@ -16,7 +16,6 @@ const store = createStore(
 )
 
 ReactDOM.render(
-
   <React.StrictMode>
     <Provider store={store}>
       <HashRouter>

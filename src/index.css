@@ -65,7 +65,7 @@ body {
 
 .slide-enter,
 .slide-exit {
-  transition: transform 1000ms ease-out;
+  transition: transform 700ms ease-out;
 }
 
 .slide-enter {

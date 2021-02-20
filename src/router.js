@@ -26,7 +26,7 @@ const RouterWrapper = () => {
       <CSSTransition
         key={location.pathname}
         classNames="slide"
-        timeout={1000}
+        timeout={700}
       >
         <Switch location={location}>
           {routes.map((item, index) => (
