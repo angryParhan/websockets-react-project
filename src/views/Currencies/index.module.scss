@@ -1,0 +1,24 @@
+.currency {
+  padding: 30px 20px;
+
+  h1 {
+    text-align: center;
+    box-shadow: inset 0 0 10px rgba(0,0,0,.5);
+    padding: 10px;
+  }
+}
+
+.currencyInformation {
+  display: flex;
+  gap: 30px;
+  padding-top: 30px;
+}
+
+.tableWrapper {
+  flex: 3;
+}
+
+.chartWrapper {
+  flex: 7;
+  box-shadow: inset 0 0 10px rgba(0,0,0,.5);
+}
